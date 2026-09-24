@@ -90,3 +90,127 @@ How many days in the week i was to be around 90% arounf my goal
 Finally, choose 5 features that we explicitly won't build in V1.
 
 Would not like to invest much time in front-end for version 1 but funtionally i would like all the features mentioned above
+
+---------------------------------------------------------------------------------------------------------
+Helfit User Stories — Baseline V1
+Authentication
+
+US-01 — P0
+
+As a new user, I want Helfit to allow me to create an account with a unique user ID/username and password so that I can securely use my personal nutrition data.
+
+US-02 — P0
+
+As an existing user, I want Helfit to allow me to log in using my credentials so that I can access my account and nutrition data.
+
+Nutrition Profile & Goals
+
+US-03 — P0
+
+As a user, I want to create and maintain my nutrition profile by providing my age, weight, height, daily physical activity level, and goal (weight loss, weight gain, maintenance, or recomposition) so that Helfit can determine appropriate daily nutrition targets.
+
+US-04 — P0
+
+As a user, I want Helfit to suggest my daily calorie and nutrition targets based on my nutrition profile and selected goal so that I have a starting point for my daily nutrition plan.
+
+US-05 — P0
+
+As a user, I want to view, edit, and confirm my suggested daily nutrition targets so that I can use targets that I agree with.
+
+Important: We're deliberately saying "suggest", not "optimal" or "correct." The calculation will depend on assumptions and user inputs.
+
+Meal & Ingredient Tracking
+
+US-06 — P0
+
+As a user, I want to create meals so that I can track my daily food intake.
+
+US-07 — P0
+
+As a user, I want to add ingredients to a meal so that Helfit can calculate the nutritional value of the meal.
+
+US-08 — P0
+
+As a user, I want to specify the quantity of each ingredient in supported units such as grams and ounces so that Helfit can calculate nutrition based on the amount consumed.
+
+US-09 — P0
+
+As a user, I want to specify the preparation condition of each ingredient, such as raw, boiled, cooked, etc., with raw as the default, so that Helfit can use the appropriate nutritional data for the ingredient.
+
+US-10 — P0
+
+As a user, I want Helfit to calculate the nutritional value of all ingredients in a meal and show calories, protein, carbohydrates, fat, and fiber, so that I can understand the nutritional content of my meal.
+
+US-11 — P0
+
+As a user, I want to edit ingredient quantities, preparation conditions, or other meal information before saving, so that I can correct mistakes and recalculate the meal's nutritional values.
+
+US-12 — P0
+
+As a user, I want Helfit to save my meal and its calculated nutritional values so that the meal contributes to my daily nutrition tracking.
+
+Daily Dashboard
+
+US-13 — P0
+
+As a user, I want Helfit's dashboard to show my current day's calorie, protein, carbohydrate, fat, and fiber intake compared with my confirmed daily targets so that I can understand how close I am to my goals.
+
+
+Weekly & Monthly Tracking
+
+US-14 — P1
+
+As a user, I want to view a weekly nutrition summary that shows my nutrition intake across the week, including average daily intake and the number and percentage of days that met Helfit's defined adherence criteria for my confirmed daily targets.
+
+
+
+US-15 — P2
+
+As a user, I want to view a monthly nutrition summary so that I can understand my nutrition patterns and adherence over a longer period.
+
+
+
+AI Meal Recommendation
+
+
+US-16 — P0
+
+As a user, I want Helfit to analyze my current daily nutrition intake and remaining nutrition targets so that it can determine what nutritional requirements I still need to meet.
+
+US-17 — P0
+
+As a user, I want Helfit to recommend a meal that helps me move toward my remaining daily nutrition targets while considering calories, protein, carbohydrates, fat, and fiber together.
+
+US-18 — P0
+
+As a user, I want Helfit's meal recommendation to avoid significantly exceeding one nutrition target just to satisfy another target, so that the recommendation remains balanced.
+
+
+Meal Reminders
+
+US-19 — P1
+
+As a user, I want to set reminders for my meal logging at times of my choice so that Helfit can remind me to record my meals.
+
+
+Nutrition Data Sharing
+
+US-20 — P1
+
+As a user, I want to search for another user using their unique user ID so that I can find the person whose nutrition data I want to request access to.
+
+US-21 — P1
+
+As a user, I want to send a nutrition-data access request to another user so that they can decide whether to grant me access.
+
+US-22 — P1
+
+As a user, I want to approve or reject an access request so that I control who can access my nutrition data.
+
+US-23 — P1
+
+As a user who has been granted access, I want to view another user's permitted nutrition summaries so that I can monitor their shared nutrition information.
+
+US-24 — P1
+
+As a user, I want to revoke previously granted access so that I can stop another user from viewing my nutrition data.

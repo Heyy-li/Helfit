@@ -6,5 +6,3 @@ class User:
         self.username = username
         self.nutrition_profile = nutrition_profile
 
-
-

@@ -5,3 +5,4 @@ class ActivityLevel(Enum):
     LIGHTLY_ACTIVE = "lightly_active"
     MODERATELY_ACTIVE = "moderately_active"
     VERY_ACTIVE = "very_active"
+
